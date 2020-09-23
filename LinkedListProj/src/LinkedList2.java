@@ -47,7 +47,7 @@ public class LinkedList2<T> extends AbstractList<T> {
 		
 	}
 	
-	public boolean addNode(int i, T info) {
+	public boolean addIndex(int i, T info) {
 		
 		if (head == null) {
 			
@@ -158,7 +158,7 @@ public class LinkedList2<T> extends AbstractList<T> {
 		myList.add("hi");
 		myList.add("hello");
 		myList.add("hi there");
-		myList.addNode(1, "hey");
+		myList.addIndex(1, "hey");
 		myList.remove(2);
 		System.out.println(myList);
 		System.out.println(myList.size());
